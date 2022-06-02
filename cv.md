@@ -2,7 +2,7 @@
 ### Junior Frontend Developer
 
 ![PH](/img/ph.png "Photo")
-***
+
 ## Contact information:
 **Phone:** +375256941695
 
@@ -15,7 +15,7 @@
 [LinkedIn](https://www.linkedin.com/in/nadia-hameza/)
 
 [Rabota.by](https://rabota.by/resume/bdd02944ff08b82f160039ed1f396b48795561)
-***
+
 ## About Myself:
 I am trainee web developer, study html, css, js on RS course. Also I study English with a tutor. Now I work in the content as a deputy head. At work I like to automate processes, train employees and I easily manage to find contact with people.
 
@@ -41,7 +41,7 @@ I am trainee web developer, study html, css, js on RS course. Also I study Engli
 **MS Excel** - Middle+
 
 **Human resource management** - Middle+
-***
+
 ## Code example:
 ```
 const getHiddenCard = (cardNumber, Count = 4) => {
@@ -67,8 +67,8 @@ export default getHiddenCard;
 - Interaction with various departments of the company (sales, purchases, IT), the implementation of their tasks, making corrections to the site.
 - Development of templates for product descriptions, the catalog structure.
 - Current reporting, work with Excel. Working with large amounts of data.
-- Implementation of external software into the work of the department (project). Work on mini-projects inside the department.
----
+- Implementation of external software into the work of the department. Work on mini-projects inside the department.
+
 ### Specialist in working with customers 
 **LIFE:)**
 
@@ -84,7 +84,7 @@ Training and adaptation of new employees, development of instructions and proced
 *Software testing, 2014 - 2017*
 
 ## Courses:
-* **IT Academy Stormnet**,*Junior QA , Software Testing, 2021*
+* **IT Academy Stormnet**, *Junior QA , Software Testing, 2021*
 * [Basics HTML & CSS](https://www.internetingishard.com/)
 * [HTML for beginners](https://ru.code-basics.com/languages/html)
 * [JavaScript for Beginners](https://ru.code-basics.com/languages/javascript)
