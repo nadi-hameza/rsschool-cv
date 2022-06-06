@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+ max-width: 300px;
+ max-height: 450px;
+}
+
+h4, h1 {
+  text-align: center;  
+}
