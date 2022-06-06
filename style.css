@@ -1,13 +1,23 @@
-div {
-    display: flex;
-    justify-content: center;
+.all {
+  width: 1200px;
+  margin: auto;
+  background-color: #B0C4DE;
 }
 
 img {
- max-width: 300px;
- max-height: 450px;
+ max-width: 250px;
+ max-height: 250px;
+ }
+
+.myheader {
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ height: 270px;
 }
 
-h4, h1 {
-  text-align: center;  
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
