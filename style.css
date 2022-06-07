@@ -1,4 +1,4 @@
-.all {
+body {
   width: 1200px;
   margin: auto;
   background-color: #B0C4DE;
@@ -18,6 +18,61 @@ img {
 
 main {
   width: 100%;
+  background-color: aquamarine;
+}
+
+.skills {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills > h2 {
+margin: auto;
+}
+
+code {
+  position: relative;
+  right: 20%;
+  top: 30%;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+pre {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  margin-right: 20px;
+  background-color: #DCDCDC;
+}
+
+.myself {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.myself > p {
+  width: 800px;
+}
+
+.myself > h2 {
+  position: relative;
+  left: 45px;
+  width: 300px;
+}
+
+.expiriens {
+  display: flex;
+}
+
+.ed, .life {
+  width: 600px;
+}
+
+.exp {
+  text-align: center;
 }

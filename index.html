@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="all">
     <header class="myheader">
         <div class="contact">
             <h1>Nadia Hameza</h1>
@@ -28,73 +27,92 @@
         <!— Навигация —>  
     </nav>
     <main>
-        About Myself:
-        I am trainee web developer, study html, css, js on RS course. Also I study English with a tutor. Now I work in the content as a deputy head. At work I like to automate processes, train employees and I easily manage to find contact with people.
-        
-        Skills:
-        HTML/CSS - Basics+
-        JavaScript - Basics
-        SQL - Basics
-        Git/GitHub - Basics
-        JIRA - Basics
-        Software testing theory - Middle
-        Test cases, checklists - Middle
-        Software Development Methodologies - Middle+
-        Adobe Photoshop - Basics+
-        MS Excel - Middle+
-        Human resource management - Middle+
+        <div class="myself">
+            <h2>About Myself:</h2>
+            <p>
+                I am trainee web developer, study html, css, js on RS course. Also I study English with a tutor. Now I work in the content as a deputy head. At work I like to automate processes, train employees and I easily manage to find contact with people.
+            </p>
+        </div>
+        <div class="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML/CSS - Basics+</li>
+                <li>JavaScript - Basics</li>
+                <li>SQL - Basics</li>
+                <li>Git/GitHub - Basics</li>
+                <li>JIRA - Basics</li>
+                <li>Software testing theory - Middle</li>
+                <li>Test cases, checklists - Middle</li>
+                <li>Software Development Methodologies - Middle+</li>
+                <li>Adobe Photoshop - Basics+</li>
+                <li>MS Excel - Middle+</li>
+                <li>Human resource management - Middle+</li>
+            </ul>
+            <h2>Code example:</h2>
+            <pre>
+                <code>const getHiddenCard = (cardNumber, Count = 4) =>
+                {const visibleDigitsLine = cardNumber.slice(12);
+                return `${'*'.repeat(Count)}${visibleDigitsLine}`;
+                };
+                export default getHiddenCard;
+                </code>
+            </pre>
+        </div>
+        <h2 class="exp">Experience:</h2>
+        <div class="expiriens"> 
+            <div class="ed">
+                <h3>Deputy Head of Content Department</h3>
+                <span class="organization">E-dostavka</span><br>
+                <span class="orgcont">Minsk, e-dostavka.by</span><br>
+                <span class="orgtime">2021 - until now</span>
+                <p>
+                    <ul>
+                        <li>Organization of employees' work (8 people).</li>
+                        <li>Monitoring employees performance.</li>
+                        <li>Interviews, introductory training of new employees.</li>
+                        <li>Interaction with various departments of the company (sales, purchases, IT), the implementation of their tasks, making corrections to the site.</li>
+                        <li>Development of templates for product descriptions, the catalog structure.</li>
+                        <li>Current reporting, work with Excel. Working with large amounts of data.</li>
+                        <li>Implementation of external software into the work of the department. Work on mini-projects inside the department.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="life">
+                <h3>Specialist in working with customers</h3>
+                <span class="organization">LIFE:)</span><br>
+                <span class="orgcont">Minsk, www.life.com.by</span><br>
+                <span class="orgtime">2017 - 2020</span>
+                <p>
+                    Work with documents, contact center, sales, work with invoices, work with clients, social networks, work with mobile devices, CRM systems. Training and adaptation of new employees, development of instructions and procedures. 
+                </p>
+            </div>    
+        </div>
+        <div class="education">
+            <h2> Education:
+            <h3>Belarusian State Academy of Communications</h3>
+            <span class="organization">Software testing</span><br> 
+            <span class="orgtime">2014 - 2017</span>
 
-        Code example:
-        <!- const getHiddenCard = (cardNumber, Count = 4) => {
-            const visibleDigitsLine = cardNumber.slice(12);
-            return `${'*'.repeat(Count)}${visibleDigitsLine}`;
-          };
-          export default getHiddenCard; ->
-
-        Experience:
-        Deputy Head of Content Department
-        E-dostavka
-
-        Minsk, e-dostavka.by
-
-        2021 - until now
-
-        Organization of employees' work (8 people).
-        Monitoring employees performance.
-        Interviews, introductory training of new employees.
-        Interaction with various departments of the company (sales, purchases, IT), the implementation of their tasks, making corrections to the site.
-        Development of templates for product descriptions, the catalog structure.
-        Current reporting, work with Excel. Working with large amounts of data.
-        Implementation of external software into the work of the department. Work on mini-projects inside the department.
-        Specialist in working with customers
-        LIFE:)
-
-        Minsk, www.life.com.by
-
-        2017 - 2020
-
-        Work with documents, contact center, sales, work with invoices, work with clients, social networks, work with mobile devices, CRM systems. Training and adaptation of new employees, development of instructions and procedures.
-        
-        Education:
-        Belarusian State Academy of Communications Software testing, 2014 - 2017
-
-        Courses:
-        IT Academy Stormnet, Junior QA , Software Testing, 2021
-        Basics HTML & CSS (link)
-        HTML for beginners
-        JavaScript for Beginners
-        
-        Languages:
-        Russian - C2
-        Belarusian - C1
-        English - A2+ (in progress)
+            <h2>Courses:</h2>
+            <ul>
+                <li>IT Academy Stormnet, Junior QA , Software Testing, 2021</li>
+                <li>Basics HTML & CSS</li>
+                <li>HTML for beginners</li>
+                <li>CSS for beginners</li>
+                <li>JavaScript for Beginners</li>
+            </ul>
+            <h2>Languages:</h2>
+            <ul>
+                <li>Russian - C2</li>
+                <li>Belarusian - C1</li>
+                <li>English - A2+ (in progress)</li>
+            </ul>
+        </div>
     </main>
-    <footer class="main-footer">
-        <!— Подвал сайта —>
-        Portfolio:
-        Project CV RS School (link)
-        лого РС + ссылка
+    <footer class="myfooter">
+        <h2>Portfolio:</h2>
+        <span><a href="https://nadi-hameza.github.io/rsschool-cv/">CV for RS School</a></span>
+        <a href="https://rs.school/js/"><img class="logo" src="img/rs_school_js.svg" alt="logo"></a>
     </footer>  
-</div>
 </body>
 </html>
