@@ -1,7 +1,7 @@
 body {
   width: 1200px;
   margin: auto;
-  background-color: #B0C4DE;
+  background-color: whitesmoke;
 }
 
 img {
@@ -17,17 +17,41 @@ img {
 }
 
 main {
-  width: 100%;
-  background-color: aquamarine;
-}
-
-.skills {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
-.skills > h2 {
-margin: auto;
+.myself {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #DCDCDC;
+}
+
+.myself > p {
+  width: 800px;
+}
+
+.myself > h2 {
+  position: relative;
+  left: 45px;
+  width: 300px;
+}
+
+.skills, .expiriens {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 10px 3px;
+  text-align: justify;
+  padding: 5px 30px;
+}
+
+.expiriens {
+  background-color: orange;
 }
 
 code {
@@ -48,31 +72,32 @@ pre {
   background-color: #DCDCDC;
 }
 
-.myself {
+.myfooter {
+  padding: 0px 75px;
+}
+
+.foot {
   display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  border-radius: 15px;
-}
-
-.myself > p {
-  width: 800px;
-}
-
-.myself > h2 {
-  position: relative;
-  left: 45px;
-  width: 300px;
-}
-
-.expiriens {
-  display: flex;
-}
-
-.ed, .life {
-  width: 600px;
-}
-
-.exp {
+  justify-content: space-between;
   text-align: center;
+}
+
+.foot li {
+  list-style-type: none;
+}
+
+.logo {
+  height: 35px;
+}
+
+.git {
+  height: 35px;
+}
+
+.github, .year, .logotype {
+  width: 30%;
+}
+
+.year {
+  padding-top: 12px;
 }
