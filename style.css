@@ -1,7 +1,7 @@
 body {
   width: 1200px;
   margin: auto;
-  background-color: whitesmoke;
+  background: linear-gradient(#ADD8E6, #87CEEB, #87CEFA);
 }
 
 img {
@@ -14,6 +14,7 @@ img {
  width: 100%;
  justify-content: space-around;
  height: 270px;
+ margin-top: 25px;
 }
 
 main {
@@ -23,9 +24,8 @@ main {
 
 .myself {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15px;
-  background-color: #DCDCDC;
 }
 
 .myself > p {
@@ -42,16 +42,12 @@ main {
   width: 50%;
   display: flex;
   flex-direction: column;
-  background-color: white;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 15px;
   margin: 10px 3px;
   text-align: justify;
   padding: 5px 30px;
-}
-
-.expiriens {
-  background-color: orange;
+  background-color: rgba(255, 255, 255, 0.3)
 }
 
 code {
@@ -73,24 +69,17 @@ pre {
 }
 
 .myfooter {
-  padding: 0px 75px;
+  padding: 0px 70px;
 }
 
 .foot {
   display: flex;
   justify-content: space-between;
   text-align: center;
-}
-
-.foot li {
   list-style-type: none;
 }
 
-.logo {
-  height: 35px;
-}
-
-.git {
+.logo, .git {
   height: 35px;
 }
 
@@ -100,4 +89,36 @@ pre {
 
 .year {
   padding-top: 12px;
+  position: relative;
+  right: 15px;
+}
+
+nav {
+  border: 1px solid white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navigat {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: #191970;
+}
+a:visited {
+  color: #4B0082;
+}
+a:active {
+  color: #7B68EE;
+}
+
+.organization, .orgcont, .orgtime {
+  font-style: italic;
 }
