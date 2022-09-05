@@ -96,6 +96,6 @@ Training and adaptation of new employees, development of instructions and proced
 - **English** - A2+ (in progress)
 
 ## Portfolio:
-[Project CV RS School](https://nadi-hameza.github.io/rsschool-cv/cv)
-[Travel for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/travel/)
-[Momentum for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/momentum/)
+* [Project CV RS School](https://nadi-hameza.github.io/rsschool-cv/cv)
+* [Travel for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/travel/)
+* [Momentum for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/momentum/)
