@@ -20,13 +20,13 @@
 I am trainee web developer, study html, css, js on RS course. Also I study English with a tutor. Now I work in the content as a deputy head. At work I like to automate processes, train employees and I easily manage to find contact with people.
 
 ## Skills:
-**HTML/CSS** - Basics+
+**HTML/CSS** - Middle+
 
 **JavaScript** - Basics
 
 **SQL** - Basics
 
-**Git/GitHub** - Basics
+**Git/GitHub** - Middle
 
 **JIRA** - Basics
 
@@ -88,6 +88,7 @@ Training and adaptation of new employees, development of instructions and proced
 * [Basics HTML & CSS](https://www.internetingishard.com/)
 * [HTML for beginners](https://ru.code-basics.com/languages/html)
 * [JavaScript for Beginners](https://ru.code-basics.com/languages/javascript)
+* [JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)](https://app.rs.school/certificate/66pcuo8u)
 
 ## Languages:
 - **Russian** - C2
@@ -96,3 +97,5 @@ Training and adaptation of new employees, development of instructions and proced
 
 ## Portfolio:
 [Project CV RS School](https://nadi-hameza.github.io/rsschool-cv/cv)
+[Travel for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/travel/)
+[Momentum for RS School](https://rolling-scopes-school.github.io/nadi-hameza-JSFEPRESCHOOL2022Q2/momentum/)
